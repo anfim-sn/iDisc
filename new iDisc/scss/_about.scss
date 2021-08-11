@@ -1,0 +1,34 @@
+.about {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.text-about {
+	width: 700px;
+	margin-top: 70px;
+	margin-right: 70px;
+	margin-left: 100px;
+}
+.text-about > h2 {
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-weight: 700;
+	color: $color2;
+}
+.text-about > p {
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 40px;
+}
+
+.img-about {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	width: 422px;
+}
+.img-about > img {
+	width: 200px;
+	margin: 5px;
+}
