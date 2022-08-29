@@ -1,0 +1,54 @@
+.feedback {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.feedback > h2 {
+	margin-top: 25px;
+	margin-bottom: 70px;
+	font-size: 40px;
+	font-weight: 700;
+	color: $color2;
+	text-align: center;
+}
+
+.feedback > div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.feedback > div > div {
+	width: 500px;
+	display: flex;
+	margin-bottom: 60px;
+}
+
+.nomargin {
+	margin-right: 0;
+}
+
+.feedback > div > div > img {
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.feedback__text > p {
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 25px;
+}
+
+.feedback__text > .name {
+	font-weight: 700;
+	margin: 30px 0 3px 0;
+}
+
+.feedback__text > p > span {
+	color: #3b71bd;
+}

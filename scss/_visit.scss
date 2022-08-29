@@ -1,0 +1,54 @@
+.visit {
+	height: 150%;
+	background: #fff url(../img/background/bg__visit.jpg) center center/cover no-repeat;
+	display: flex;
+	flex-direction: column;
+}
+
+.visit > span {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.visit > p {
+	color: #ffffff;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 300;
+	margin-top: 40px;
+}
+
+/* VISIT BUTTONS STYLE */
+
+.visit-buttons {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 310px;
+}
+
+.buy {
+	background-color: $color2;
+	color: #ffffff;
+}
+.buy:hover {
+	background-color: #ffffff;
+	color: black;
+	box-shadow: none;
+	border: 2px solid $color2;
+}
+
+.more {
+	background-color: #ffffff;
+	color: #000000;
+	margin-right: 5px;
+}
+.more:hover {
+	background-color: $color2;
+	color: #ffffff;
+	box-shadow: none;
+	border: 2px solid#FFFFFF;
+}
